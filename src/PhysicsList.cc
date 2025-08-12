@@ -1,4 +1,4 @@
-#include "/home/sshin/dev/droplet/geant4-droplet/include/PhysicsList.hh"
+#include "PhysicsList.hh"
 
 PhysicsList::PhysicsList()
 {

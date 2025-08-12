@@ -1,6 +1,6 @@
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/DetectorConstruction.hh"
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/SensitiveDetector.hh"
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/GeometryParameters.hh"
+#include "DetectorConstruction.hh"
+#include "SensitiveDetector.hh"
+#include "GeometryParameters.hh"
 
 #include "G4Box.hh"
 #include "G4Sphere.hh"

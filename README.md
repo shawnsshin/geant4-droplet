@@ -1,2 +1,1 @@
-# geant4-droplet
-Geant4 simulation of radioactive sessile droplet
+# Geant4 Simulation of Radioactive Sessile Droplet

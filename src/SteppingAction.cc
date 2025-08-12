@@ -1,5 +1,5 @@
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/SteppingAction.hh"
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/GeometryParameters.hh"
+#include "SteppingAction.hh"
+#include "GeometryParameters.hh"
 
 #include "G4Track.hh"
 #include "G4Step.hh"

@@ -1,4 +1,4 @@
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/SensitiveDetector.hh"
+#include "SensitiveDetector.hh"
 
 #include "G4Step.hh"
 #include "G4StepPoint.hh"

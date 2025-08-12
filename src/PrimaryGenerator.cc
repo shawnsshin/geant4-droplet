@@ -1,11 +1,11 @@
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/PrimaryGenerator.hh"
+#include "PrimaryGenerator.hh"
 
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/GeometryParameters.hh"
+#include "GeometryParameters.hh"
 #include "G4ChargedGeantino.hh"
 #include "G4RandomDirection.hh"
 #include "Randomize.hh"
 
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/DetectorConstruction.hh"
+#include "DetectorConstruction.hh"
 #include "G4RunManager.hh"
 
 

@@ -1,4 +1,4 @@
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/GeometryParameters.hh"
+#include "GeometryParameters.hh"
 
 // World geometry parameters
 const G4double xWorld = 5 * cm;

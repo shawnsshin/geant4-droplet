@@ -1,5 +1,5 @@
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/RunAction.hh"
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/SteppingAction.hh"
+#include "RunAction.hh"
+#include "SteppingAction.hh"
 
 #include "G4AnalysisManager.hh"
 #include "G4RunManager.hh"

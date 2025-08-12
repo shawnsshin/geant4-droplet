@@ -1,10 +1,10 @@
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/ActionInitialization.hh"
+#include "ActionInitialization.hh"
 
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/PrimaryGenerator.hh"
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/RunAction.hh"
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/StackingAction.hh"
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/SteppingAction.hh"
-#include "/home/sshin/dev/droplet/opt_droplet_sim/include/DetectorConstruction.hh"
+#include "PrimaryGenerator.hh"
+#include "RunAction.hh"
+#include "StackingAction.hh"
+#include "SteppingAction.hh"
+#include "DetectorConstruction.hh"
 
 ActionInitialization::ActionInitialization()
 {}
