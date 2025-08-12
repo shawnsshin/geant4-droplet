@@ -1,0 +1,4 @@
+/home/sshin/dev/droplet/geant4-droplet/build/CMakeFiles/sim.dir
+/home/sshin/dev/droplet/geant4-droplet/build/CMakeFiles/droplet.dir
+/home/sshin/dev/droplet/geant4-droplet/build/CMakeFiles/edit_cache.dir
+/home/sshin/dev/droplet/geant4-droplet/build/CMakeFiles/rebuild_cache.dir
