@@ -13,13 +13,13 @@ const G4double zChip = 0.5 * mm;
 
 
 // Droplet shape parameters
-const G4double contact_radius = 1.5 * mm; // 3 mm contact diameter
-const G4double scale = 0.01149 * mm; // mm per pixel
-const G4double R = 131.21 * scale * mm; // x and y semi-axes
-const G4double zEllipsoid = 122.30 * scale * mm; // z semi-axis
+const G4double contact_radius = 2.8736017061807195 / 2.0 * mm; // 3 mm contact diameter
+const G4double scale = 3.0/261.0 * mm; // mm per pixel
+const G4double R = 140.38684396518545 * scale * mm; // x and y semi-axes
+const G4double zEllipsoid = 44.55403169142142 * scale * mm; // z semi-axis
 // const G4double R = 1.5704040404040405 * mm; // x and y semi-axes
 // const G4double zEllipsoid = 1.3303030303030303 * mm; // z semi-axis
-const G4double zCut = -zEllipsoid * std::sqrt(1.0 - ((contact_radius * contact_radius) / (R * R))); // negative truncation height to model droplet on chip surface
+const G4double zCut = zEllipsoid * std::sqrt(1.0 - ((contact_radius * contact_radius) / (R * R))); // negative truncation height to model droplet on chip surface
 const G4double zTranslate = - (zCut - zChip); // flush droplet to chip surface
 
 // Converter parameters

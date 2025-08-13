@@ -15,6 +15,8 @@ extern const G4double xChip;
 extern const G4double yChip;
 extern const G4double zChip;
 
+extern const G4double contact_radius;
+extern const G4double scale;
 extern const G4double R;
 extern const G4double zEllipsoid;
 extern const G4double zCut;
