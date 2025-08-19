@@ -6,6 +6,8 @@
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
 #include "globals.hh"
+#include <fstream>
+#include <sstream>
 
 RunAction::RunAction()
 {
@@ -35,11 +37,33 @@ RunAction::RunAction()
 
 }
 
+std::string RunAction::GenerateUniqueFilename(const std::string& baseFilename) {
+    std::string baseName = baseFilename.substr(0, baseFilename.find_last_of('.'));
+    std::string extension = baseFilename.substr(baseFilename.find_last_of('.'));
+    
+    int counter = 1;
+    std::string newFilename;
+    
+    do {
+        std::ostringstream oss;
+        oss << baseName << "_" << counter << extension;
+        newFilename = oss.str();
+        counter++;
+        std::ifstream file(newFilename);
+        if (!file.good()) {
+            break;
+        }
+    } while (true);
+    
+    return newFilename;
+}
+
 void RunAction::BeginOfRunAction(const G4Run*)
 {
     auto analysisManager = G4AnalysisManager::Instance();
 
-    analysisManager->OpenFile("output.root");
+    std::string filename = GenerateUniqueFilename("root_output/output_G8.root");
+    analysisManager->OpenFile(filename);
 }
 
 void RunAction::EndOfRunAction(const G4Run*)
